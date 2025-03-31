@@ -367,8 +367,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd0fcafeba89a743b8ae4747a8ea8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  rotateSpeed: 100
+  moveSpeed: 100
+  rotateSpeed: 1000
 --- !u!1 &123458401
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +452,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 123458404}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1480722222}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Forward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &123458404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,7 +1177,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 392560924}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1480722222}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: MoveRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &392560924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1216,8 +1240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd0fcafeba89a743b8ae4747a8ea8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  rotateSpeed: 100
+  moveSpeed: 100
+  rotateSpeed: 1000
 --- !u!1 &427246952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1325,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 427246955}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1480722222}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Back
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &427246955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3374,7 +3410,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1313155481}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1480722222}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Veer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1313155481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3425,8 +3473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd0fcafeba89a743b8ae4747a8ea8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  rotateSpeed: 100
+  moveSpeed: 100
+  rotateSpeed: 1000
 --- !u!1 &1352313786
 GameObject:
   m_ObjectHideFlags: 0
@@ -4357,7 +4405,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1772721481}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1480722222}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: ChangeRover
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1772721481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4408,8 +4468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd0fcafeba89a743b8ae4747a8ea8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  rotateSpeed: 100
+  moveSpeed: 100
+  rotateSpeed: 1000
 --- !u!1 &1780320309
 GameObject:
   m_ObjectHideFlags: 0
